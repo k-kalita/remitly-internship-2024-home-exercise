@@ -1,0 +1,20 @@
+{
+    "PolicyName": "root",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": {
+            "Sid": "TestStatement",
+            "Effect": "Allow",
+            "Action": [
+                "testAction1",
+                "testAction2"
+            ],
+            "Resource": [
+                "testResource1",
+                {
+                    "Resource": "testResource2"
+                }
+            ]
+        }
+    }
+}

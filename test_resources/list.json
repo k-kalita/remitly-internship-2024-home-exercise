@@ -1,0 +1,32 @@
+[
+    {
+        "PolicyName": "root1",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": {
+                "Sid": "TestStatement1",
+                "Effect": "Allow",
+                "Action": [
+                    "testAction1",
+                    "testAction2"
+                ],
+                "Resource": "testResource1"
+            }
+        }
+    },
+    {
+        "PolicyName": "root2",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": {
+                "Sid": "TestStatement2",
+                "Effect": "Allow",
+                "Action": [
+                    "testAction1",
+                    "testAction2"
+                ],
+                "Resource": "testResource2"
+            }
+        }
+    }
+]
